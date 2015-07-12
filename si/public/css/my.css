@@ -1,0 +1,70 @@
+.container-fluid{
+}
+.list{
+    margin-bottom:10px;
+
+}
+.title{
+    background-color:#fff;
+    text-align:center;
+    padding:20px 0px;
+    overflow:hidden;
+    text-overflow:ellipsis;   
+      white-space:nowrap;
+}
+.content{
+    background-color:#fff;
+    text-align:center;
+    padding:20px 50px;
+    font-family:Sans-serif;
+    font-size:17px;
+    height:400px;
+    overflow:hidden;
+    text-overflow:ellipsis;   
+
+}
+.user{
+    list-style-type:none;
+    float:right
+}
+.user li{
+font-size:16px;
+margin-left:15px;
+float:left;
+text-align:center;
+}
+
+
+/* make sidebar nav vertical */ 
+@media (min-width: 768px) {
+    .sidebar-nav .navbar .navbar-collapse {
+        padding: 0;
+        max-height: none;
+    }
+    .sidebar-nav .navbar ul {
+        float: none;
+    }
+    .sidebar-nav .navbar ul:not {
+        display: block;
+    }
+    .sidebar-nav .navbar li {
+        float: none;
+        display: block;
+    }
+    .sidebar-nav .navbar li a {
+        padding-top: 12px;
+        padding-bottom: 12px;
+    }
+}
+
+
+.modal-msg{
+position:relative;
+left:45%;
+top:45%;
+z-index:12009px;
+width:100px;
+height:5px;
+
+}
+
